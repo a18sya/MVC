@@ -41,6 +41,7 @@ public class UserController {
             String yourLogin = sc2.nextLine();
             System.out.print("Введите пароль: ");
             String yourPassword = sc2.nextLine();
+            System.out.println();
 
             if (loginAndPassword.containsKey(yourLogin) && loginAndPassword.containsValue(yourPassword)) {
                 System.out.println("Вы успешно вошли в систему!");
